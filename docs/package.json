@@ -1,6 +1,5 @@
 {
   "name": "business-template",
-  "homepage": "https://rahulsengupta0.github.io/business_temp/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -9,9 +8,8 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "predeploy":"npm run build",
-    "deploy":"gh-pages -d dist"
-  },
+    "predeploy":"npm run build"
+    },
   "dependencies": {
     "flatpickr": "^4.6.13",
     "react": "^19.1.0",
